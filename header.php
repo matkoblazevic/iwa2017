@@ -81,46 +81,9 @@ echo "</div>";
 
 ?>
 </td></tr></table>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </head>
-<script >
-    function obrisi(){
-    var brisanje=confirm("Potvrdite brisanje?");
-    if (brisanje==true){ alert ("Podatak obrisan")}
-	else{alert("Brisanje ponisteno")} return brisanje; }
-</script>
 
-<script>
-function provjeraUnosaKorisnika(){
-	var korisnicko_ime = document.korisnik.korisnicko_ime;
-    var lozinka = document.korisnik.lozinka;
-    var ime = document.korisnik.ime;
-    var slika = document.korisnik.slika;
-
-if (korisnicko_ime.value == "")
-    {
-        alert("Unesite korisnicko ime.");
-        korisnicko_ime.focus();
-        return false;
-    }
-if (lozinka.value == "")
-    {
-        alert("Unesite lozinku.");
-        lozinka.focus();
-        return false;
-    }
-if (ime.value == "")
-    {
-        alert("Unesite ime.");
-        ime.focus();
-        return false;
-    }
-if (slika.value == "")
-    {
-        alert("Odaberite sliku.");
-        slika.focus();
-        return false;
-    }
-} </script>
 <body>
 <div id="sadrzaj" >
