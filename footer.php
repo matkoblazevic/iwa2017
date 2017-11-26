@@ -1,5 +1,6 @@
 </div>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/proba.js"></script>
 </body>
 <footer class="podnozje">
 <hr width="85%" color="green" size="4" /><br />

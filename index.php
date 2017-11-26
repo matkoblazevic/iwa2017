@@ -14,6 +14,9 @@ U sustavu postoji jedan ugradeni administrator (korisnicko ime: admin, lozinka: 
 Administrator unosi korisnike i kategorije te definira moderatore za kategorije izmedu unesenih korisnika,
 administrator moze vidjeti sve preglede kao moderator i prijavljeni korisnik. <br/>
 
+<button onclick="nesto">Udri</button>
+<p id="jsproba"></p>
+
 Moderator upravlja kategorijom: odobrava nove recepte i moze uredivati kategoriju i mijenjati naziv i sliku.
 Takoder moze uredivati komentare i recepte u svojoj kategoriji. <br/> <br/>
 
