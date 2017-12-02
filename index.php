@@ -14,8 +14,19 @@ U sustavu postoji jedan ugradeni administrator (korisnicko ime: admin, lozinka: 
 Administrator unosi korisnike i kategorije te definira moderatore za kategorije izmedu unesenih korisnika,
 administrator moze vidjeti sve preglede kao moderator i prijavljeni korisnik. <br/>
 
-<button onclick="nesto">Udri</button>
-<p id="jsproba"></p>
+<form>
+	Unesite dva broja: <input type="number" id="num1" ></input>
+	<input type="number" id="num2" ></input>
+</form>
+<button class="btn" onclick="document.getElementById('javaScript').innerHTML =
+wordGame();">Izracunaj</button>
+<p id="javaScript"></p>
+
+<p><b>Generator akorda:</b></p>
+<form>
+Koliko akorda zelis: <input type="number" onkeyup="document.getElementById('akordi').innerHTML = brojevi(this.value)">
+</form>
+<p>Akordi: <span id="akordi"></span></p>
 
 Moderator upravlja kategorijom: odobrava nove recepte i moze uredivati kategoriju i mijenjati naziv i sliku.
 Takoder moze uredivati komentare i recepte u svojoj kategoriji. <br/> <br/>

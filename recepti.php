@@ -14,7 +14,7 @@
 
 		//Naslov i slika kategorije
 		while(list($naziv, $slika) = mysqli_fetch_array($rs2)) {
-		echo "<center><h1> $naziv </h1><br><img src='$slika' width='370' height='200' border='2' /></center><br><br>"; }
+		echo "<h1> $naziv </h1><br><img src='$slika' width='370' height='200' id='slikaKategorije' /><br><br>"; }
 
 	if (isset($_SESSION['aktivni_korisnik'])) {
 	while(list($moderator_id, $moderator_ime) = mysqli_fetch_array($result)) {
