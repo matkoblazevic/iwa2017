@@ -12,6 +12,12 @@ body {
 }
 p { line-height: 140%; }
 
+#mainTitle {
+	color:red;
+	position: relative;
+	margin-top: 3em;
+}
+
 #loginLine { background-color: #FFF380; }
 
 h1 {
@@ -59,27 +65,25 @@ div.copy {
 	text-align: right;
 }
 a.izbornik {
-	color:black;
+	background-color:#ffaa00;
 	font-size:20px;
 }
 a.izbornik:hover {
-	color:red;
-	font-size:20px;
+	background-color:black;
+	font-size:22px;
 	text-decoration:none;
 }
-#izbornik ul {
-	line-height: 20px;
-	margin:auto auto;
-	width: 80%;
-	text-transform:uppercase;
-	list-style-position:inside;
+#izbornik {
+	background-color: #FFF380;
+	border-radius: 30px;
 }
 #izbornik li {
-	float:left;
-	padding-right:2em;
-	border: solid green 1px;
+	font-size: 20px;
+	text-transform: uppercase;
 }
-#izbornik li:hover { background-color: white; }
+#slikaKategorije {
+	border: solid red 2px;
+}
 
 table.unos_korisnika { color:navy; }
 
